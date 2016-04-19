@@ -11,6 +11,7 @@ Version:1.1 */
 2.  Header
 3.  Slider
 4.  Services
+background-size: cover;
 5.  Portfolio
 6.  About Us
 7.  Team
@@ -178,6 +179,23 @@ a{
 }
 #footer{
     padding: 0;
+}
+
+.text-content p{
+    font-family: 'Arial',sans-serif;
+    font-size:16px;
+    line-height: 1.2
+}
+.text-content ul{
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.text-content li{
+    list-style: circle;
+    margin-bottom:10px;
+    font-family: 'Arial',sans-serif;
+    font-size:15px;
 }
 
  /*Divider
@@ -376,7 +394,7 @@ ul.navbar-nav > .active > a{
 }
 .carousel-caption p{
     font-size:24px;
-    line-height: 62px;
+    line-height: 30px;
     font-weight: 500;
     color: #fff;
     transition-delay:.3s;
@@ -2575,7 +2593,8 @@ iframe{
     color: #fff!important;
 }
 #about-details {
-    background: url('../images/banner/banner.jpg')fixed 50% 50%;
+    background: url('../images/banner/banner_filtered.jpg')fixed 0% 0% ;
+    background-size: cover;
 }
 
 .single-progress .progress{
